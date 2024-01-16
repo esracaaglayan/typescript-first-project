@@ -1,0 +1,36 @@
+#header_id{
+    margin-top: 5rem;
+}
+
+#back_to_top_id{
+    position: fixed;
+    right: 0;
+    bottom:0;
+    z-index: 1;
+    background-color: black;
+    color:white!important;
+    border-radius: 4%;
+    padding:0.5rem;
+    margin-bottom:1rem;
+    margin-right:1rem;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #432c87;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 24px;
+  animation: anim1 1.5s infinite;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
